@@ -5,7 +5,7 @@
       <div class="display-4 font-weight-black white--text text-xs-center mb-3">FOR YOUR TABLE</div>
       <div
         class="display-1 font-weight-bold white--text text-xs-center"
-      >Finally be a foodie at home with fresh, chef-prepared meals delivered daily to your door.</div>
+      >OUR CHEFS COOK EVERY SINGLE MEAL</div>
     </v-layout>
   </v-container>
 </template>

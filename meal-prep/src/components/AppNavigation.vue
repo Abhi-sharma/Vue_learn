@@ -1,6 +1,6 @@
 <template>
   <span>
-    <v-navigation-drawer app v-model="drawer" class="brown lighten-2" dark disable-resize-watcher>
+    <v-navigation-drawer app v-model="drawer" class="maroon lighten-2" dark disable-resize-watcher>
       <v-list>
         <template v-for="(item, index) in items">
           <v-list-tile :key="index">
@@ -10,8 +10,7 @@
         </template>
       </v-list>
     </v-navigation-drawer>
-    <v-toolbar app color="brown darken-4" dark>
-      <v-toolbar-side-icon class="hidden-md-and-up" @click="drawer = !drawer"></v-toolbar-side-icon>
+    <v-toolbar app color="maroon" dark>
       <v-spacer class="hidden-md-and-up"></v-spacer>
       <router-link to="/">
         <v-toolbar-title data-cy="titleBtn">{{appTitle}}</v-toolbar-title>
@@ -27,7 +26,7 @@ export default {
     name: 'AppNavigation',
     data() {
         return {
-            appTitle: 'Meal Prep',
+            appTitle: 'Fooddie Meal',
             drawer: false
         };
     }
