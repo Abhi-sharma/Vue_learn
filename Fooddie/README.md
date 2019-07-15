@@ -1,7 +1,7 @@
 # Fooddie
 
 ### Live Demo Link
-# [Live Demo Link](https://learn-vuejs-f50e3.firebaseapp.com/).
+[Live Demo Link](https://learn-vuejs-f50e3.firebaseapp.com/).
 
 ## Project setup
 ```
@@ -16,6 +16,11 @@ npm run serve
 ### Lints and fixes files
 ```
 npm run lint
+```
+
+### Make Build
+```
+npm run build
 ```
 
 ### Customize configuration
